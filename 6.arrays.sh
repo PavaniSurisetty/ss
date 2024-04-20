@@ -1,3 +1,3 @@
 #!bin/bash
-PERSONS=("RAM""SITA""LUCKY")
+PERSONS=("RAM" "SITA" "LUCKY")
 echo ${PERSONS[0]}
