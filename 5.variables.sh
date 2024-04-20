@@ -11,9 +11,15 @@ echo "Please enter your password"
 
 read "password"
 
-echo "password Entered is: $username"
+# echo "password Entered is: $username"
+
+# echo "password Entered is: $password"
+
+
+read -s "password"
 
 echo "password Entered is: $password"
+
 
 
 
