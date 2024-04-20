@@ -9,7 +9,7 @@ echo "username Entered is: $username"
 
 echo "Please enter your password"
 
-read "password"
+# read "password"
 
 # echo "password Entered is: $username"
 
