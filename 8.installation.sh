@@ -7,7 +7,7 @@ exit 1
 else "you are a super user"
 fi 
 
-yum install mysql -y
+yum install postfix -y
  if [ $? -ne 0 ]
  then 
     echo "installation of my sql is successfull "
@@ -16,7 +16,7 @@ yum install mysql -y
     echo "installation is failed"
  fi
 
- yum install git -y 
+ yum install mongodb -y 
 
  if [ $? -ne 0 ]
  then 
