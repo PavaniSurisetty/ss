@@ -9,3 +9,4 @@ yum install git -y
 yum install mysql -y
  if [ $? -ne 0 ]
  then "installation is successfull "
+ fi
