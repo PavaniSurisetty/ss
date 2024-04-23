@@ -1,6 +1,3 @@
-#!/bin/bash
-for i in $@ {
-then yum install i -y
-exit 1
-}
+for i in {1..100} 
+do   echo $i 
 done
