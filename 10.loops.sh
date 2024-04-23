@@ -1,6 +1,6 @@
 #!/bin/bash
 for i in $@ {
-echo i
+then yum install i -y
 exit 1
 }
 done
