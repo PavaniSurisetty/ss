@@ -1,5 +1,6 @@
 #!/bin/bash
-VALIDATE(){
+VALIDATE()
+{
 
 }
     if [ $USERID -ne 0 ]
