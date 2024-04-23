@@ -3,7 +3,7 @@ VALIDATE()
 {
 
 }
-    if [ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then 
     echo "error : please run with root access "
 exit 1
