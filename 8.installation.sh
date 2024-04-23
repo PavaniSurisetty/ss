@@ -4,10 +4,10 @@ if [ $USERID -ne 0 ]
 then 
     echo "error : please run with root access "
 exit 1
-else "you are a super user"
+else "you are a superuser "
 fi 
 
-yum install postfix -y
+yum install mysql -y
  if [ $? -ne 0 ]
  then 
     echo "installation of my sql is successfull "
@@ -16,7 +16,7 @@ yum install postfix -y
     echo "installation is failed"
  fi
 
- yum install mongodb -y 
+ yum install git -y 
 
  if [ $? -ne 0 ]
  then 
