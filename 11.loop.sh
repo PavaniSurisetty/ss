@@ -18,5 +18,5 @@ if [ $? -eq 0 ]
     then echo " $DATE installation is failed  "
     exit 1
 else
-    then echo -e " $G  $i installing is success"
+    echo -e " $G   installing  $i is success"
 fi
