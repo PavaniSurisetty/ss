@@ -14,7 +14,7 @@ if [ $USERID -ne 0 ]
 
 fi
 
-if [ $? -eq 0 ]
+if [ $1 -eq 0 ]
     then echo " $DATE installation is failed  "
     exit 1
 else
