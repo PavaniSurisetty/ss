@@ -9,13 +9,14 @@ do
 done
 
 if [ $USERID -ne 0 ] 
-    then echo " take root access"
+    then
+     echo " take root access"
     exit 1
 
 fi
 
-if [ $1 -eq 0 ]
-    then echo " $DATE installation is failed  "
+if [ $1 -ne 0 ]
+    then echo " $DATE installation $2 is failed  "
     exit 1
 else
     echo -e " $G  installing  $2 is success"
