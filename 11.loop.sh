@@ -3,7 +3,7 @@ USERID=$(id -u)
 SCRIPTNAME=$0
 G="\e[32m"
 DATE=$(date +%F)
-for i in #@
+for i in $@
 do 
     yum install $i -y
 done
