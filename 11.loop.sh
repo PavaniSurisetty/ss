@@ -7,9 +7,8 @@ do
     yum install $i -y
 done
 
-if [ $USERID -ne 0 ] 
+if [ $USERID -eq 0 ] 
+    then echo -e " $G installing is success"
+else
     then echo " take root access"
-
-else 
-    echo -e " $G installing is success"
 fi
