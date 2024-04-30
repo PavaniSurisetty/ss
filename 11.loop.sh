@@ -8,12 +8,15 @@ do
     yum install $i -y
 done
 
-if [ $USERID -eq 0 ] 
-    then echo -e " $G  $i installing is success"
+if [ $USERID -ne 0 ] 
+    then echo " take root access"
+    exit 1
+
+fi
+
+if [ $? -eq 0 ]
+    then echo " $DATE installation is failed  "
     exit 1
 else
-    echo " take root access"
-fi
-if [ $1 -eq 0 ]
-then echo " $DATE "
+    then echo -e " $G  $i installing is success"
 fi
