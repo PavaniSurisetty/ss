@@ -5,7 +5,8 @@ G="\e[32m"
 DATE=$(date +%F)
 for i in $@
 do 
-    yum install $i -y
+    # yum install $i -y
+    yum list installed $i -y
 done
 
 if [ $USERID -ne 0 ] 
