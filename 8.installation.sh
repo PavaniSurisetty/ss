@@ -16,6 +16,7 @@ yum install mysql -y
     echo "installation is failed"
  fi
 
+
  yum install git -y 
 
  if [ $? -ne 0 ]
